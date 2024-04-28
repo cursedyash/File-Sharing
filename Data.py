@@ -6,24 +6,24 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-<b> ❏ Perintah untuk Pengguna BOT
- ├ /start - Mulai Bot
- ├ /about - Tentang Bot ini
- ├ /help - Bantuan Perintah Bot ini
- ├ /ping - Untuk mengecek bot hidup
- └ /uptime - Untuk melihat status bot 
+<b> ❏ commands for users
+ ├ /start - start me 
+ ├ /about - about
+ ├ /help - commands for this bot
+ ├ /ping - check if i am active or not 
+ └ /uptime - time status of bot 
  
- ❏ Perintah Untuk Admin BOT
- ├ /logs - Untuk melihat logs bot
- ├ /setvar - Untuk mengatur var dengan command dibot
- ├ /delvar - Untuk menghapus var dengan command dibot
- ├ /getvar - Untuk melihat salah satu var dengan command dibot
- ├ /users - Untuk melihat statistik pengguna bot
- ├ /batch - Untuk membuat link lebih dari satu file
- ├ /speedtest - Untuk Mengetes kecepatan server bot
- └ /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
+ ❏ commands for admins 
+ ├ /logs - to check the logs 
+ ├ /setvar - to set a variable
+ ├ /delvar - to delete the variable
+ ├ /getvar - to view the variable using this command 
+ ├ /users - to check how many users are using this bot
+ ├ /batch - to generate mulitple file link
+ ├ /speedtest - to check the server speed 
+ └ /broadcast - to broadcaste message
 
-👨‍💻 Develoved by </b><a href='https://t.me/apatheticyash'>@apatheticyash</a>
+Develoved by </b><a href='https://t.me/apatheticyash'>@apatheticyash</a>
 """
 
     close = [
