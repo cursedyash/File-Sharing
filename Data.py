@@ -23,35 +23,35 @@ class Data:
  ├ /speedtest - Untuk Mengetes kecepatan server bot
  └ /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
 
-👨‍💻 Develoved by </b><a href='https://t.me/Lunatic0de/101'>@Lunatic0de</a>
+👨‍💻 Develoved by </b><a href='https://t.me/apatheticyash'>@apatheticyash</a>
 """
 
     close = [
-        [InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")]
+        [InlineKeyboardButton("close", callback_data="close")]
     ]
 
     mbuttons = [
         [
             InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("close", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ", callback_data="about"),
-            InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
+            InlineKeyboardButton("About", callback_data="about"),
+            InlineKeyboardButton("close", callback_data="close")
         ],
     ]
 
     ABOUT = """
-<b>Tentang Bot ini:
+<b>about this bot:
 
-@{} adalah Bot Telegram untuk menyimpan Postingan atau File yang dapat Diakses melalui Link Khusus.
+@{} telegram bot saving and storing files which can be accessed through special links.
 
  • Creator: @{}
  • Framework: <a href='https://docs.pyrogram.org'>Pyrogram</a>
- • Source Code: <a href='https://github.com/mrismanaziz/File-Sharing-Man'>File-Sharing-Man v4</a>
+ 
 
-👨‍💻 Develoved by </b><a href='https://t.me/Lunatic0de/101'>@Lunatic0de</a>
+Develoved by </b><a href='https://t.me/apatheticyash'>@apatheticyash</a>
 """
